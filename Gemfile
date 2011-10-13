@@ -9,6 +9,7 @@ gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 gem 'nifty-generators'
 gem 'will_paginate', '3.0.pre2'
 gem 'jquery-rails'
+gem 'heroku'
 
 # Use unicorn as the web server
 # gem 'unicorn'
