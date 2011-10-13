@@ -8,7 +8,7 @@
   </tr>
   <% for product in @products %>
     <tr>
-      <td><%= product.name %></td>
+      <td><%= link_to product.name, products_path(product) %></td>
       <td class="price"><%= number_to_currency(product.price) %></td>
       <td><%= product.released_at.strftime("%B %e, %Y") %></td>
     </tr>
